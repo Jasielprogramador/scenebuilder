@@ -1,10 +1,9 @@
-package ehu.isad.controllers;
+package ehu.isad;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-
-import java.awt.event.ActionEvent;
 
 public class Controller {
 
@@ -18,9 +17,10 @@ public class Controller {
     private Button btnBotoia;
 
     @FXML
-    public void onClick(ActionEvent actionEvent){
+    void onClick(ActionEvent event) {
         System.out.println(txtErabiltzailea.getText()+":"+txtPasahitza.getText());
     }
 
 }
+
 
