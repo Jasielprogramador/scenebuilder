@@ -17,7 +17,7 @@ public class Main extends Application {
     //controller.setMainApp(this);
 
     primaryStage.setTitle("Hello World");
-    primaryStage.setScene(new Scene(root, 300, 275));
+    primaryStage.setScene(new Scene(root, 600, 400));
     primaryStage.show();
   }
 
